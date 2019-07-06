@@ -1,19 +1,19 @@
 {
-  "name": "cordova-plugin-browsertab",
-  "version": "1.0.0",
-  "description": "Patch for removing compat library",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/torsorensen/cordova-plugin-browsertab.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/torsorensen/cordova-plugin-browsertab/issues"
-  },
-  "homepage": "https://github.com/torsorensen/cordova-plugin-browsertab#readme"
+    "name": "cordova-plugin-browsertab",
+    "version": "0.2.1",
+    "description": "In-app browser tabs for Android and iOS",
+    "cordova": {
+        "id": "cordova-plugin-browsertab",
+        "platforms": [
+            "android"
+        ]
+    },
+    "keywords": [
+        "sfsafariviewcontroller",
+        "custom-tabs",
+        "browser-tabs",
+        "browser"
+    ],
+    "author": "Google, Inc.",
+    "license": "Apache-2.0"
 }
